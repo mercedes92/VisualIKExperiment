@@ -1,0 +1,3 @@
+/home/robocomp/robocomp/components/robocomp-ursus/components/inversekinematics/CMakeFiles/doc.dir
+/home/robocomp/robocomp/components/robocomp-ursus/components/inversekinematics/CMakeFiles/installdoc.dir
+/home/robocomp/robocomp/components/robocomp-ursus/components/inversekinematics/src/CMakeFiles/inversekinematics.dir

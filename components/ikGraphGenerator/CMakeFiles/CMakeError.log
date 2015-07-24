@@ -1,0 +1,204 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1235232933/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1235232933.dir/build.make CMakeFiles/cmTryCompileExec1235232933.dir/build
+make[1]: Entering directory '/home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1235232933.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1235232933.dir/CheckSymbolExists.cxx.o -c /home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTryCompileExec1235232933.dir/build.make:60: recipe for target 'CMakeFiles/cmTryCompileExec1235232933.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec1235232933.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp'
+Makefile:117: recipe for target 'cmTryCompileExec1235232933/fast' failed
+make: *** [cmTryCompileExec1235232933/fast] Error 2
+
+File /home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec51912151/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec51912151.dir/build.make CMakeFiles/cmTryCompileExec51912151.dir/build
+make[1]: Entering directory '/home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec51912151.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec51912151.dir/CheckSymbolExists.cxx.o -c /home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTryCompileExec51912151.dir/build.make:60: recipe for target 'CMakeFiles/cmTryCompileExec51912151.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec51912151.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp'
+Makefile:117: recipe for target 'cmTryCompileExec51912151/fast' failed
+make: *** [cmTryCompileExec51912151/fast] Error 2
+
+File /home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3794984891/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3794984891.dir/build.make CMakeFiles/cmTryCompileExec3794984891.dir/build
+make[1]: Entering directory '/home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3794984891.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3794984891.dir/CheckSymbolExists.cxx.o -c /home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTryCompileExec3794984891.dir/build.make:60: recipe for target 'CMakeFiles/cmTryCompileExec3794984891.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec3794984891.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp'
+Makefile:117: recipe for target 'cmTryCompileExec3794984891/fast' failed
+make: *** [cmTryCompileExec3794984891/fast] Error 2
+
+File /home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1446629518/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1446629518.dir/build.make CMakeFiles/cmTryCompileExec1446629518.dir/build
+make[1]: Entering directory '/home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1446629518.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1446629518.dir/CheckSymbolExists.cxx.o -c /home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTryCompileExec1446629518.dir/build.make:60: recipe for target 'CMakeFiles/cmTryCompileExec1446629518.dir/CheckSymbolExists.cxx.o' failed
+make[1]: Leaving directory '/home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1446629518.dir/CheckSymbolExists.cxx.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec1446629518/fast' failed
+make: *** [cmTryCompileExec1446629518/fast] Error 2
+
+File /home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2726156787/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2726156787.dir/build.make CMakeFiles/cmTryCompileExec2726156787.dir/build
+make[1]: Entering directory '/home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2726156787.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2726156787.dir/CheckSymbolExists.cxx.o -c /home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTryCompileExec2726156787.dir/build.make:60: recipe for target 'CMakeFiles/cmTryCompileExec2726156787.dir/CheckSymbolExists.cxx.o' failed
+make[1]: Leaving directory '/home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2726156787.dir/CheckSymbolExists.cxx.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec2726156787/fast' failed
+make: *** [cmTryCompileExec2726156787/fast] Error 2
+
+File /home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec134430576/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec134430576.dir/build.make CMakeFiles/cmTryCompileExec134430576.dir/build
+make[1]: Entering directory '/home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec134430576.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec134430576.dir/CheckSymbolExists.cxx.o -c /home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTryCompileExec134430576.dir/build.make:60: recipe for target 'CMakeFiles/cmTryCompileExec134430576.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec134430576.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp'
+Makefile:117: recipe for target 'cmTryCompileExec134430576/fast' failed
+make: *** [cmTryCompileExec134430576/fast] Error 2
+
+File /home/mercedes/robocomp/components/robocomp-ursus/components/ikGraphGenerator/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

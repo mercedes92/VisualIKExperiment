@@ -1,0 +1,3 @@
+/home/robocomp/robocomp/components/robocomp-ursus/components/visualik/src/CMakeFiles/VisualBIK.dir
+/home/robocomp/robocomp/components/robocomp-ursus/components/visualik/CMakeFiles/doc.dir
+/home/robocomp/robocomp/components/robocomp-ursus/components/visualik/CMakeFiles/installdoc.dir

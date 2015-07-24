@@ -1,0 +1,1 @@
+/home/mercedes/robocomp/components/robocomp-ursus/components/visualik/src/CMakeFiles/VisualBIK.dir
